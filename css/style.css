@@ -639,9 +639,10 @@ line-height: 150%;
 .menu__mail {
    display: flex;
    flex-direction: row;
+   flex-wrap: nowrap;
  }
 .email {
-    max-width: 210px;
+    max-width: 200px;
     padding: 10px 19px;
 background: rgba(255, 255, 255, 0.4);
  }
