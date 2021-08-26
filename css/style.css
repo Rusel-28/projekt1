@@ -256,6 +256,8 @@ margin: 0 auto;
 
 
 .season__titl {
+    display: flex;
+    justify-content: center;
     font-family: Playfair Display;
     font-style: normal;
 font-weight: bold;
@@ -264,18 +266,9 @@ line-height: 48px;
 text-align: center;
 text-transform: uppercase;
     color: #fff;
-    text-align: center;
     margin: 93px 0px 100px 0px;
- }
- .season__titl:before{
-    position: absolute;
-    content: "";
-    width: 120px;
-    height: 1px;
-    background-color: #fff;
-    left: 5px;
-    top: -35px;
- }
+}
+
  .clock__text{
     font-family: Playfair Display;
     font-style: normal;
