@@ -637,10 +637,11 @@ font-size: 14px;
 line-height: 150%;
  }
 .menu__mail {
-   
+   display: flex;
+   flex-direction: row;
  }
 .email {
-  
+    max-width: 210px;
     padding: 10px 19px;
 background: rgba(255, 255, 255, 0.4);
  }
