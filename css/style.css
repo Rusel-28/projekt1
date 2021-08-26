@@ -1,0 +1,699 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+body{
+    min-width: 1190px;
+}
+.content {
+    flex: 1 1 auto;     /*----1 позволяю увелич, 1 позволяю уменьшаться, auto  базовый размер авто------*/
+    flex-wrap:wrap; 
+
+
+    max-width: 1920px; /*------ширина контента----*/
+    
+    margin: 0 auto;
+     }
+
+ .container {
+    max-width: 1110px; /*------ширина контента----*/
+    margin: 0 auto;  /*----выравнвание блочных элементов-----*/
+ }
+a {
+color: #969696; ;
+text-decoration: none;
+}
+/*----------------------------заголовок 1----------------------*/
+.wrapper {
+    display: flex;
+    overflow: hidden; /*------чтобы ничего не вылезло за экран----*/
+    flex: 1 1 auto;
+   
+   
+}
+.verh{
+    
+  
+    max-width: 1920px;
+    background: #000;
+}
+.stroka{
+   
+    max-width: 1920px;
+    background: #0F0F0F;
+}
+
+.wrapper__rectanger1 {
+    display: flex;
+    justify-content: space-between; /*-----развести по сторонам----*/
+    
+ }
+.rectanger1__number {
+    display: flex;
+  
+   
+ }
+.number__img {
+    flex: 0 0 13.36px;
+    margin: 15px 16px 15px 0px;
+ }
+.nember__title { 
+
+    text-align: center;
+    margin: 14px 0px 14px 0px;
+    font-family: PT Sans;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+.rectanger1__registration {
+    display: flex;
+
+    
+}
+.registration__img { 
+    flex: 0 0 7.88px;
+    margin: 19px 14px 0px 0px;
+}
+.registration__text {
+    text-align: center;
+    margin: 14px 0px 14px 0px;
+    font-family: PT Sans;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+
+
+
+
+
+
+ .wrapper__rectanger2 { 
+    display: flex;
+    justify-content: space-between; /*-----развести по сторонам----*/
+    background: #0F0F0F;
+    
+ }
+.rectanger2__img {
+    flex: 0 1 104px;
+    padding: 24px 0px 16px 0px;
+   
+ }
+.rectanger2__btn {
+    display: flex;
+    justify-content: space-between; /*-----развести по сторонам----*/
+    
+ }
+.rectanger2__btn__text {
+    display: flex;
+    justify-content: space-between; /*-----развести по сторонам----*/
+ }
+.rectanger2__btn__liked {
+    font-family: PT Sans;
+    padding: 31px 20px;
+    font-size: 14px;
+    line-height: 18px;   /*-------высота линии------*/
+    text-transform: uppercase;
+ }
+.rectanger2__btn__ls { 
+    font-family: PT Sans;
+    padding: 31px 20px;
+    font-size: 14px;
+    line-height: 18px;   /*-------высота линии------*/
+    text-transform: uppercase;
+}
+.rectanger2__btn__settings { 
+    font-family: PT Sans;
+    padding: 31px 20px;
+    font-size: 14px;
+    line-height: 18px;   /*-------высота линии------*/
+    text-transform: uppercase;
+}
+.rectanger2__btn__text :hover {
+    background:  #1F1F1F;         /*----------изменить цвет кнопки-----*/
+}
+
+.rectanger2__icon { 
+    flex: 0 0 16.5px;
+    display: flex;
+    justify-content: space-between; /*-----развести по сторонам----*/
+}
+.karzina{
+    flex: 0 0 18.33px;
+    padding: 31px 44px;
+}
+
+.lupa{
+    flex: 0 0 16.5px;
+    padding: 31px 0px;
+}
+
+/*------------porten------------------------*/
+.porten {
+    overflow: hidden; /*------чтобы ничего не вылезло за экран----*/
+    flex: 1 1 auto;
+    background-image: url('../img/Rectangle\ 3.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #000;
+    max-width: 1920px; /*------ширина контента----*/
+    margin: 0 auto; /*----выравнвание блочных элементов-----*/
+    
+    overflow: hidden;
+    font-style: normal;
+font-weight: normal;
+font-family: PT Sans;
+   
+
+    
+}    
+
+.porten__content {
+    display: flex;
+    color: #fff;
+    font-family: PT Sans;
+    flex-direction:column;
+    text-align: center;
+    padding:  160px 0px 0px 0px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+ }
+.frame {
+    border: 3px solid #fff;
+    display: flex;
+    flex-direction:column;
+   
+    justify-content: center;
+    width: 320px;	
+    height: 320px;
+   
+ }
+
+.frame__logo {
+  
+ }
+.freme__text {
+    font-family: PT Sans;
+   
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+padding: 50px 0px 0px 0px;
+ }
+.porten__tetx {
+    font-family: PT Sans;
+    display: block;
+    text-align: center;
+font-size: 16px;
+line-height: 150%;
+padding: 80px 0px 160px 0px;
+width: 730px;	
+height: auto;
+
+ }
+
+
+ /*---------------------------------------*/
+
+
+.collection {
+ 
+ 
+ }
+
+.columns {
+    display:flex; 
+    
+flex-wrap:wrap; 
+
+
+max-width: 1920px; /*------ширина контента----*/
+background-color: #000;
+margin: 0 auto;
+ }
+.columns__season {
+    margin: 0 auto;
+    width: 1040px;
+    height: 730px;
+    background: #000;
+    
+
+ }
+
+
+.season__titl {
+    font-family: Playfair Display;
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin: 93px 0px 100px 0px;
+ }
+ .season__titl:before{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+    left: 5px;
+    top: -35px;
+ }
+ .clock__text{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin: 25px 0 40px 0;
+    color: #fff;
+ }
+ .clock__text__text{
+    display:flex;
+    justify-content:space-around;
+    margin: 25px 0px 93px 0px;
+ }
+ .clok_clok{
+    display:flex;
+    justify-content:space-around;
+ }
+.season__columns { 
+
+    
+    text-align: center;
+    margin: 0 auto;
+    
+   
+}
+
+.clock__img{
+    display: flex;
+    max-width: 215px; /*------ширина контента----*/
+    margin: 55px 22px 55px 22px;
+    
+}
+.season__columns__clock {
+    display: flex;
+    display: inline-flex;
+    margin: 0px 12px 0px 12px;
+    max-width: 250px; /*------ширина контента----*/
+
+    align-items: center;
+    justify-content: center;
+    
+    background:  #191B1C;
+ }
+
+
+.columns__collection {
+    margin: 0 auto;
+    display: inline-flex;
+    flex-direction:column;
+
+}
+.collection__newcollection {
+overflow: hidden; /*------чтобы ничего не вылезло за экран----*/
+flex: 1 1 auto;
+background-image: url("../img/Rectangle\ 8.png");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+width: 880px;
+height: 730px;
+color:aliceblue;
+background-color: #000;
+margin: 0 auto;
+font-style: normal;
+font-weight: normal;
+font-family: PT Sans;
+justify-content: center;
+display:flex;
+flex-direction:column;
+align-items: center;
+ }
+
+.nowcollection__titl {
+ margin: 370px 0px 72px 0px;   
+font-family: Playfair Display;
+text-align: center;
+display: flex;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+text-transform: uppercase;
+}
+.nowcollection__btn {
+    position: relative;   /*-------относительная позиционирование------*/
+    text-align: center;
+}
+.btn__fram {
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    width:130px;	
+    height: 50px;
+}
+.btn__fram::before{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+    left: 5px;
+    top: -35px;
+}
+
+.btn__text {
+
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+
+.columns__pusto {
+    margin: 0 auto;
+
+}
+.pusto__img { }
+
+
+
+
+
+
+.columns__collection2018 {
+    flex: 1 1 auto;
+    margin: 0 auto;
+    max-width: 1040px;
+    display: flex;
+   background-color: #000;
+  color: #FFFFFF;
+  align-content: center;
+    justify-content: center;
+    align-items: center;
+ }
+.collection2018__fram { }
+.collection2018__titl {
+    margin: 100px 0 80px 0;
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+ }
+.collection2018__lorem {
+    font-family: PT Sans;
+    margin: 0 0 65px 0;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+max-width: 480px;
+
+
+text-align: center;
+    display: flex;
+ }
+.collection2018__btn { }
+.collection2018__btn__fram {
+    display: flex;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    justify-content: center;
+ }
+.btn__fram__text { 
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color:#FFFFFF;
+margin: 20px 30px;
+text-transform: uppercase;
+}
+
+
+
+
+
+.new_Arrivals{
+display: flex;
+max-width: 1920px; /*------ширина контента----*/
+margin: 0 auto;
+background-color: #000;
+display:flex; 
+color:aliceblue;
+}
+.new_Arrivals_title{
+    display: flex;
+margin: 120px 0 121px 0;
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+justify-content: center;
+text-transform: uppercase;
+}
+.new_arrivals_watch_text{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 0 150px 0;
+}
+.new_arrivals_wt{
+    display: flex;
+    flex-direction:column;
+}
+.ourbrands{
+    display: flex;
+    flex-direction:column;
+    background: #0F0F0F;
+    margin: 0 auto;
+    max-width: 1920px;
+    
+}
+.ourbrands__coco{
+    display:flex;
+ 
+}
+.coco__img{
+    max-width: 255px;
+    margin: 80px 15px 74px 15px;
+}
+.ourbrands_title{
+    display: flex;
+    color: #FFFFFF;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 60px 0 80px 0;
+}
+
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    background-image: url('../img/Rectangle 15.png');
+    background-repeat: no-repeat;
+   
+    max-width: 1920px;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content:space-between;
+    margin: 68px 0 110px 0;
+    
+    
+ }
+.menu__shop {
+    color:#fff;
+    margin: 0 31px 0 0;
+    display: flex;
+    max-width: 350px;
+    flex-direction:column;
+ }
+.shop__title {
+    margin: 0 0 40px 0;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+  
+    
+    text-transform: uppercase;
+ }
+.shop__text {
+    font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+}
+.menu__categories {
+    color:#fff;
+    margin: 0 73px 0 0;
+    display: flex;
+    max-width: 306px;
+    flex-direction:column;
+ }
+.categories__title {
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+margin: 0 0 40px 0;
+
+
+text-transform: uppercase;
+ }
+.categories__btn {
+
+    font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+color: #D0D0D0;
+display: flex;
+flex-wrap:wrap;
+max-width: 306px; 
+
+ }
+.categories__btn__clok { 
+    background: #000;
+    margin: 10px 10px ;
+    padding: 10px 20px;
+
+}
+
+
+
+
+/*--------------------------------------*/
+.categories__btn__bracelet { }
+.categories__btn__belt { }
+.categories__btn__jewelry { }
+.categories__btn__cufflinks { }
+/*---------------------------------------*/
+
+.menu__mailing { 
+    color:#fff;
+    
+    display: flex;
+    max-width: 350px;
+    flex-direction:column;
+}
+.menu__mailing__title {
+    margin: 0 0 40px 0;
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+
+
+text-transform: uppercase;
+ }
+.menu__mailing__title__lorem {
+    margin: 0 0 37px 0;
+    font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+ }
+.menu__mail {
+   
+ }
+.email {
+  
+    padding: 10px 19px;
+background: rgba(255, 255, 255, 0.4);
+ }
+ .email__btn{
+     
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    background-color: #000;
+    padding: 10px 20px;
+ }
+
+
+
+
+
+.footer_two{
+    display: flex;
+    
+    max-width: 1920px;
+    background: #0F0F0F;
+    margin: 0 auto;
+    color: #D0D0D0;
+
+}
+.figma {
+    justify-content:space-between;
+    display:flex;
+    
+    margin: 17px 0;
+
+}
+.prava {
+margin: 0 800px 0 0;
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+}
+.figma_figma {
+    
+    
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-align: right;
+text-decoration-line: underline;
+}
+
